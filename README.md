@@ -3,6 +3,8 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 
 
 # Caffe
+Github: https://github.com/BVLC/caffe  
+Homepage: http://caffe.berkeleyvision.org/
 
 ### Features
 - Blob, Layer, Net, Solver are 4 main classes
@@ -30,6 +32,8 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 
 
 # Torch
+Github: https://github.com/torch/torch7  
+Homepage: http://torch.ch/
 
 ### Features
 - Used in DeepMind and Facebook, Tweeter
@@ -59,7 +63,9 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 3. Use trained model. Often with evaluation script.
 
 
-# Theano
+# Theano  
+Github: https://github.com/Theano/Theano  
+Homepage: http://www.deeplearning.net/software/theano/
 
 ### Features
 - Theano function, which is in effect a computational graph, compiles down to GPU code or sometimes even down to native code. It also optimizes your computational graph in behind the scenes.
@@ -84,6 +90,8 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 
 
 # TensorFlow
+Github:https://github.com/tensorflow/tensorflow  
+Homepage: https://www.tensorflow.org/ 
 
 ### Features
 - Written from the ground up by engineers, not by academic research labs.
@@ -106,8 +114,8 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Not many pretrained models
 
 # Which One To Use?
-- Feature extraction & Finetuning pretrained models: **Caffe**
-- Complex use of pretrained models: (**Lasagne** / **Keras**) or **Torch**
-- Writing your own layers: **Torch**
-- RNN: **Theano** or **TensorFlow**
-- Huge model with Distributed / Parallel training: **TensorFlow**
+- Want feature extraction & finetuning of pretrained models: **Caffe**
+- Want complex use of pretrained models: (**Lasagne** / **Keras**) or **Torch**
+- Want to write your own layers: **Torch**
+- Want RNN: **Theano** or **TensorFlow**
+- Want huge model with distributed / parallel training: **TensorFlow**
