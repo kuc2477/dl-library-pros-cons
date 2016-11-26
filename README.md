@@ -36,7 +36,7 @@ Github: https://github.com/torch/torch7
 Homepage: http://torch.ch/
 
 ### Features
-- Used in DeepMind and Facebook, Tweeter
+- Used in DeepMind, Facebook and Tweeter
 - Only Module is a main class for both network and layers
 - Unlike numpy, GPU is just a datatype. Everything is plain tensors.
 - Use nn, cunn, nngraph, optim package
