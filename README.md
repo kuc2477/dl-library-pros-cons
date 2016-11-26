@@ -1,5 +1,5 @@
 # dl-library-pros-cons
-Summarized pros and cons of Deep Learning libraries from *[Lecture 12: Deep Learning libraries](https://www.youtube.com/watch?v=XgFlBsl0Lq4&index=11&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)* of [Stanford 2016 Winter CS231n](http://cs231n.github.io/).
+Summarized pros and cons of popular Deep Learning libraries from *[Lecture 12: Deep Learning libraries](https://www.youtube.com/watch?v=XgFlBsl0Lq4&index=11&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)* of [Stanford 2016 Winter CS231n](http://cs231n.github.io/).
 
 # Caffe
 - Blob, Layer, Net, Solver are 4 main classes
