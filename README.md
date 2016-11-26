@@ -115,7 +115,7 @@ Homepage: https://www.tensorflow.org/
 
 # Which One To Use?
 - Want feature extraction & finetuning of pretrained models: **Caffe**
-- Want complex use of pretrained models: (**Lasagne** / **Keras**) or **Torch**
+- Want complex use of pretrained models: **Lasagne** or **Torch**
 - Want to write your own layers: **Torch**
 - Want RNN: **Theano** or **TensorFlow**
 - Want huge model with distributed / parallel training: **TensorFlow**
