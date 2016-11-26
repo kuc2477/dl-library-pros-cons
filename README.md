@@ -1,8 +1,6 @@
 # dl-library-pros-cons
 Pros and Cons of *Caffe*, *Torch*, *Theano* and *TensorFlow* summarized from *Lecture 12: Deep Learning libraries* of [Stanford 2016 Winter CS231N](http://cs231n.github.io/) by [Ha Junsoo](https://github.com/kuc2477)
 
----
-
 # Caffe
 - Blob, Layer, Net, Solver are 4 main classes
 - Uses Protocol Buffers for defining all types of Caffe instances in .proto files.
