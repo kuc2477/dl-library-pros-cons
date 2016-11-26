@@ -25,8 +25,6 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Not good for RNN
 - (-) Cumbersome for big networks (GoogLeNet, ResNet)
 
----
-
 # Torch
 - Used in DeepMind and Facebook, Tweeter
 - Only Module is a main class for both network and layers
@@ -54,8 +52,6 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (+) Lots of pretrained models
 - (-) Not great for RNN
 
----
-
 # Theano
 - Theano function, which is in effect a computational graph, compiles down to GPU code or sometimes even down to native code. It also optimizes your computational graph in behind the scenes.
 - Symbolic differentiation. You can go crazy with this.
@@ -77,8 +73,6 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Much magic done behind the scenes than Torch
 - (-) Patchy support for pretrained models.
 
----
-
 # TensorFlow
 - Written from the ground up by engineers, not by academic research labs.
 - Simillar to Theano: All about computational graph
@@ -99,9 +93,7 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Much magic done behind the scenes than Torch
 - (-) Not many pretrained models
 
----
-
-# Quick Heuristics
+# Quick Decision Heuristics
 - Feature extraction & Finetuning pretrained models: **Caffe**
 - Complex use of pretrained models: (**Lasagne** / **Keras**) or **Torch**
 - Writing your own layers: **Torch**
