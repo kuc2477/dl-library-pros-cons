@@ -1,7 +1,10 @@
 # dl-library-pros-cons
 Summarized Pros and Cons of popular Deep Learning libraries and simple decision heuristic from *[Lecture 12: Deep Learning libraries](https://www.youtube.com/watch?v=XgFlBsl0Lq4&index=11&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)* of [Stanford 2016 Winter CS231n](http://cs231n.github.io/).
 
+
 # Caffe
+
+### Features
 - Blob, Layer, Net, Solver are 4 main classes
 - Uses Protocol Buffers for defining all types of Caffe instances in .proto files.
 - Use python interface if you don't want just using pretrained models.
@@ -25,7 +28,10 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Not good for RNN
 - (-) Cumbersome for big networks (GoogLeNet, ResNet)
 
+
 # Torch
+
+### Features
 - Used in DeepMind and Facebook, Tweeter
 - Only Module is a main class for both network and layers
 - Unlike numpy, GPU is just a datatype. Everything is plain tensors.
@@ -52,7 +58,10 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (+) Lots of pretrained models
 - (-) Not great for RNN
 
+
 # Theano
+
+### Features
 - Theano function, which is in effect a computational graph, compiles down to GPU code or sometimes even down to native code. It also optimizes your computational graph in behind the scenes.
 - Symbolic differentiation. You can go crazy with this.
 - Shared variables. Embeds parameters into your computational graph so that everything can be done in GPU.
@@ -73,7 +82,10 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Much magic done behind the scenes than Torch
 - (-) Patchy support for pretrained models.
 
+
 # TensorFlow
+
+### Features
 - Written from the ground up by engineers, not by academic research labs.
 - Simillar to Theano: All about computational graph
 - Easy visualization: TensorBoard
@@ -93,7 +105,7 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Much magic done behind the scenes than Torch
 - (-) Not many pretrained models
 
-# Quick Decision Heuristics
+# Which one to use?
 - Feature extraction & Finetuning pretrained models: **Caffe**
 - Complex use of pretrained models: (**Lasagne** / **Keras**) or **Torch**
 - Writing your own layers: **Torch**
