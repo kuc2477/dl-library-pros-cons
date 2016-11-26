@@ -1,5 +1,5 @@
 # dl-library-pros-cons
-Summarized Pros and Cons of popular Deep Learning libraries and simple decision heuristic from *[Lecture 12: Deep Learning libraries](https://www.youtube.com/watch?v=XgFlBsl0Lq4&index=11&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)* of [Stanford 2016 Winter CS231n](http://cs231n.github.io/).
+Summarized Pros and Cons of popular Deep Learning libraries and simple decision heuristic from *[Lecture 12: Deep Learning libraries](https://www.youtube.com/watch?v=XgFlBsl0Lq4&index=11&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)* of [Stanford Winter 2016 CS231n](http://cs231n.github.io/).
 
 
 # Caffe
