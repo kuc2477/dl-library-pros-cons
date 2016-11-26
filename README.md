@@ -9,15 +9,6 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - Uses Protocol Buffers for defining all types of Caffe instances in .proto files.
 - Use python interface if you don't want just using pretrained models.
 
-### Workflow
-1. Converting data: LMDB(recommended) or HDF5
-2. Data layers: ImageDataLayer, WindowDataLayer, HDF5Layer
-3. Define net: Define network in .proto file.
-4. Define net (finetuning): Change layer name if you want to finetune from the very scratch.
-5. Define solver
-6. Train
-7. Or just use model zoo
-
 ### Pros / Cons
 - (+) Good for feed forward networks
 - (+) Good for finetuning existing models
@@ -27,6 +18,15 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) No Model parallelism
 - (-) Not good for RNN
 - (-) Cumbersome for big networks (GoogLeNet, ResNet)
+
+### Workflow
+1. Converting data: LMDB(recommended) or HDF5
+2. Data layers: ImageDataLayer, WindowDataLayer, HDF5Layer
+3. Define net: Define network in .proto file.
+4. Define net (finetuning): Change layer name if you want to finetune from the very scratch.
+5. Define solver
+6. Train
+7. Or just use model zoo
 
 
 # Torch
@@ -43,11 +43,6 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - Use loadcaffe to load pretrained Caffe model (only works for certain types of networks) 
 - Lots of other useful packages: torch,cudnn, torch-hdf5, lua-cjson, cltorch, clnn, torch-autograd, fbcunn (FFT conv, Multi GPU, Data Parallelism + Model Parallelism)
 
-### Workflow
-1. Preprocess data: Use Python script to dump data to HDF5
-2. Train model in Lua / Torch: Read and train from HDF5 file, save trained model to your disk.
-3. Use trained model. Often with evaluation script.
-
 ### Pros / Cons
 - (-) Lua
 - (-) Less plug-and-play than Caffe
@@ -57,6 +52,11 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (+) Most of libraries are written in pure Lua.
 - (+) Lots of pretrained models
 - (-) Not great for RNN
+
+### Workflow
+1. Preprocess data: Use Python script to dump data to HDF5
+2. Train model in Lua / Torch: Read and train from HDF5 file, save trained model to your disk.
+3. Use trained model. Often with evaluation script.
 
 
 # Theano
@@ -105,7 +105,7 @@ Summarized Pros and Cons of popular Deep Learning libraries and simple decision 
 - (-) Much magic done behind the scenes than Torch
 - (-) Not many pretrained models
 
-# Which one to use?
+# Which One To Use?
 - Feature extraction & Finetuning pretrained models: **Caffe**
 - Complex use of pretrained models: (**Lasagne** / **Keras**) or **Torch**
 - Writing your own layers: **Torch**
